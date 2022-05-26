@@ -15,17 +15,13 @@ namespace HW_1_1
     class Book
     {        
         public void ShowBook()
-        {
-            
+        {            
             Title title = new Title();
             title.ShowTitle(title);
-
-
-            
+                        
             Author author = new Author();
             author.ShowAuthor(author);
-
-            
+                        
             Content content = new Content();
             content.ShowContent();
         }
